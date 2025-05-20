@@ -10,21 +10,21 @@ Welcome! This exercise will assess your practical DevOps skills. Please follow t
 2. Use Terraform to provision the cluster with separate namespaces for internal vs external applications and any different environments.
 3. Install ArgoCD on the cluster using Helm.
 4. Demonstrate GitOps workflows with ArgoCD:
- - Deploy a simple Nginx app with output "hello it's me"
- - We should be able to deploy a new version to staging, promote it to production, rollback to any version.
+  - Deploy a simple Nginx app with output "hello it's me"
+  - We should be able to deploy a new version to staging, promote it to production, rollback to any version.
 5. Define key monitoring metrics and thresholds (can be in README). For each, specify:
- - What to monitor.
- - The threshold for alerting.
- - Why it’s important.
+  - What to monitor.
+  - The threshold for alerting.
+  - Why it’s important.
 
 
 ## Deliverables
 
 - All code (Terraform, Helm charts, manifests, app code) in a GitHub repository.
 - A `README.md` with:
- - Setup instructions (including prerequisites). Should be a 1 command install and run.
- - How to use ArgoCD for deployments, promotions, and rollbacks.
- - Defined monitors and thresholds.
+  - Setup instructions (including prerequisites). Should be a 1 command install and run.
+  - How to use ArgoCD for deployments, promotions, and rollbacks.
+  - Defined monitors and thresholds.
 
 ## Notes
 
